@@ -410,3 +410,26 @@ top: 141px;
 bottom: 176.53px;
 
 }
+
+.why_choose_us{
+    position: absolute;
+height: 928px;
+left: -1px;
+top: 1648px;
+background: #799985;
+}
+
+.reviews{
+    position: absolute;
+height: 904px;
+left: calc(50% - 1440px/2);
+top: 2576px;
+background: #FFFFFF;
+}
+.contact_form{
+    position: absolute;
+height: 346px;
+left: 0px;
+top: 3480px;
+background: #FFFFFF;
+}
