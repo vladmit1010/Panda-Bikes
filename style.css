@@ -590,8 +590,64 @@ div#facebook {
 
 .contact_form {
     position: absolute;
-    height: 346px;
     left: 0px;
     top: 3480px;
-    background: #FFFFFF;
+    width: 1200px;
+    height: 250px;
+    left: 165px;
+    background-color: #799985;
 }
+
+.contact_form_letters{
+    position: absolute;
+margin-top: 60px;
+margin-left: 80px;
+margin-bottom: 66px;
+margin-right: 793px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 130%;
+
+
+letter-spacing: 0.5px;
+
+color: #FFFFFF;
+}
+.emailform{
+    position: absolute;
+width: 691px;
+height: 100px;
+margin-top: 75px;
+margin-right: 72px;
+margin-left: 437px;
+margin-bottom: 75px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 160%;
+letter-spacing: 0.5px;
+color: #989898;
+}
+.submitbutton{
+    position: absolute;
+width: 183px;
+height: 60px;
+margin-top: 95px;
+margin-left: 925px;
+margin-bottom: 95px;
+margin-right: 92px;
+background: #799985;
+border-radius: 4px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 25px;
+letter-spacing: 0.5px;
+color: #FFFFFF;
+}
+
