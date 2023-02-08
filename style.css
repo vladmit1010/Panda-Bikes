@@ -1,0 +1,221 @@
+footer{
+    position: absolute;
+width: 100%;
+height: 366px;
+left: 0px;
+top: 3826px;
+
+
+background: #799985;
+}
+div#name{
+    position: absolute;
+width: 210.56px;
+height: 45.81px;
+left: 142px;
+top: 64px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 32px;
+color: #FFFFFF;
+
+}
+div#home{
+    position: absolute;
+width: 72.57px;
+height: 40.83px;
+left: 512px;
+top: 64px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 160%;
+letter-spacing: 0.5px;
+color: #FFFFFF;
+}
+.button{
+    text-decoration: none;
+    color:#FFFFFF;
+}
+div#catalog{
+    position: absolute;
+    width: 93.02px;
+    height: 40.83px;
+    left: 512px;
+    top: 120.76px;
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 160%;
+letter-spacing: 0.5px;
+color: #FFFFFF;
+}
+div#services{
+    position: absolute;
+width: 100.17px;
+height: 40.83px;
+left: 512px;
+top: 177.52px;
+font-family: "Open Sans";
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 160%;
+letter-spacing: 0.5px;
+color: #FFFFFF;
+}
+div#promo{
+    position: absolute;
+width: 81.77px;
+height: 40.83px;
+left: 512px;
+top: 234.28px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 160%;
+letter-spacing: 0.5px;
+color: #FFFFFF;
+}
+div#adress{
+    position: absolute;
+width: 106.3px;
+height: 40.83px;
+left: 771px;
+top: 64px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 160%;
+letter-spacing: 0.5px;
+color: #FFFFFF;
+}
+div#adresss{
+    
+position: absolute;
+width: 222.83px;
+height: 101.57px;
+left: 771px;
+top: 136.69px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 170.53%;
+letter-spacing: 0.5px;
+color: #FFFFFF;
+}
+div#info{
+    position: absolute;
+width: 155.37px;
+height: 40.83px;
+left: 1109px;
+top: 64px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 160%;
+letter-spacing: 0.5px;
+color: #FFFFFF;
+}
+div#faq{
+    position: absolute;
+width: 63.37px;
+height: 29.87px;
+left: 1109px;
+top: 136.7px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 170.53%;
+letter-spacing: 0.5px;
+color: #FFFFFF;
+}
+div#dr{
+    position: absolute;
+width: 189.1px;
+height: 29.87px;
+left: 1109px;
+top: 171px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 170.53%;
+letter-spacing: 0.5px;
+color: #FFFFFF;
+}
+div#safety{
+    position: absolute;
+width: 189.1px;
+height: 29.87px;
+left: 1109px;
+top: 205px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 170.53%;
+letter-spacing: 0.5px;
+color: #FFFFFF;
+}
+div#pb{
+    position: absolute;
+width: 189.1px;
+height: 29.87px;
+left: 1109px;
+top: 239px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 170.53%;
+letter-spacing: 0.5px;
+color: #FFFFFF;
+}
+div#privacy{
+    position: absolute;
+width: 189.1px;
+height: 29.87px;
+left: 1109px;
+top: 273px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 170.53%;
+letter-spacing: 0.5px;
+color: #FFFFFF;
+}
+div#insta{
+position: absolute;
+left: 142px;
+right: 1248.94px;
+top: 141px;
+bottom: 176.53px;
+}
+div#twitter{
+position: absolute;
+left: 303.5px;
+right: 1087.44px;
+top: 141px;
+bottom: 176.53px;
+}
+
+div#facebook{
+    
+position: absolute;
+left: 222.75px;
+right: 1168.19px;
+top: 141px;
+bottom: 176.53px;
+
+}
