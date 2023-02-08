@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 
-header{
-position: absolute;
-width: 100%;
-height: 906px;
-left: 0px;
-top: 0px;
-background: #799985;
+header {
+    position: absolute;
+    width: 100%;
+    height: 906px;
+    left: 0px;
+    top: 0px;
+    background: #799985;
 } 
 
 
@@ -100,7 +100,7 @@ div#promo-header {
 
 div#title-header {
     position: absolute;
-    width: 528px;
+    width: 540px;
     height: 154px;
     left: 78px;
     top: 180px;
@@ -130,8 +130,6 @@ div#call-to-action {
 
 div#shop-now {
     position: absolute;
-    width: 159px;
-    height: 44px;
     left: 157px;
     top: 770px;
     font-family: 'Open Sans';
@@ -172,6 +170,7 @@ div#shop-now-background {
     width: 390px;
     height: 62px;
     left: 502px;
+    top: 64px;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 600;
