@@ -1,221 +1,213 @@
-footer{
-    position: absolute;
+body {
+  position: absolute;
 width: 100%;
-height: 366px;
+height: 906px;
 left: 0px;
-top: 3826px;
-
+top: 0px;
 
 background: #799985;
 }
-div#name{
-    position: absolute;
-width: 210.56px;
-height: 45.81px;
-left: 142px;
+
+div#image-header {
+  position: absolute;
+width: 720px;
+height: 906px;
+left: 720px;
+top: 0px;
+}
+
+div#logo {
+  position: absolute;
+width: 195px;
+height: 32px;
+left: 78px;
 top: 64px;
+
+/* Subtitle 1 */
+
 font-family: 'Open Sans';
 font-style: normal;
 font-weight: 700;
 font-size: 32px;
 line-height: 32px;
+/* identical to box height, or 100% */
+
+
+color: #FFFFFF;
+}
+
+.button {
+  text-decoration: none;
+  color:#FFFFFF;
+}
+
+div#home-header {
+  position: absolute;
+width: 54px;
+height: 29px;
+left: 472px;
+top: 66px;
+
+/* Body 2 */
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 160%;
+/* identical to box height, or 29px */
+
+letter-spacing: 0.5px;
+
 color: #FFFFFF;
 
 }
-div#home{
-    position: absolute;
-width: 72.57px;
-height: 40.83px;
-left: 512px;
-top: 64px;
+  
+
+div#catalog-header {
+  position: absolute;
+width: 69px;
+height: 29px;
+left: 603px;
+top: 66px;
+
+/* Body 2 */
+
 font-family: 'Open Sans';
 font-style: normal;
 font-weight: 600;
-font-size: 24px;
-line-height: 160%;
-letter-spacing: 0.5px;
-color: #FFFFFF;
-}
-.button{
-    text-decoration: none;
-    color:#FFFFFF;
-}
-div#catalog{
-    position: absolute;
-    width: 93.02px;
-    height: 40.83px;
-    left: 512px;
-    top: 120.76px;
-    font-family: 'Open Sans';
-font-style: normal;
-font-weight: 600;
-font-size: 24px;
-line-height: 160%;
-letter-spacing: 0.5px;
-color: #FFFFFF;
-}
-div#services{
-    position: absolute;
-width: 100.17px;
-height: 40.83px;
-left: 512px;
-top: 177.52px;
-font-family: "Open Sans";
-font-style: normal;
-font-weight: 600;
-font-size: 24px;
-line-height: 160%;
-letter-spacing: 0.5px;
-color: #FFFFFF;
-}
-div#promo{
-    position: absolute;
-width: 81.77px;
-height: 40.83px;
-left: 512px;
-top: 234.28px;
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 600;
-font-size: 24px;
-line-height: 160%;
-letter-spacing: 0.5px;
-color: #FFFFFF;
-}
-div#adress{
-    position: absolute;
-width: 106.3px;
-height: 40.83px;
-left: 771px;
-top: 64px;
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 600;
-font-size: 24px;
-line-height: 160%;
-letter-spacing: 0.5px;
-color: #FFFFFF;
-}
-div#adresss{
-    
-position: absolute;
-width: 222.83px;
-height: 101.57px;
-left: 771px;
-top: 136.69px;
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 400;
 font-size: 18px;
-line-height: 170.53%;
-letter-spacing: 0.5px;
-color: #FFFFFF;
-}
-div#info{
-    position: absolute;
-width: 155.37px;
-height: 40.83px;
-left: 1109px;
-top: 64px;
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 600;
-font-size: 24px;
 line-height: 160%;
+/* identical to box height, or 29px */
+
 letter-spacing: 0.5px;
+
 color: #FFFFFF;
-}
-div#faq{
-    position: absolute;
-width: 63.37px;
-height: 29.87px;
-left: 1109px;
-top: 136.7px;
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 170.53%;
-letter-spacing: 0.5px;
-color: #FFFFFF;
-}
-div#dr{
-    position: absolute;
-width: 189.1px;
-height: 29.87px;
-left: 1109px;
-top: 171px;
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 170.53%;
-letter-spacing: 0.5px;
-color: #FFFFFF;
-}
-div#safety{
-    position: absolute;
-width: 189.1px;
-height: 29.87px;
-left: 1109px;
-top: 205px;
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 170.53%;
-letter-spacing: 0.5px;
-color: #FFFFFF;
-}
-div#pb{
-    position: absolute;
-width: 189.1px;
-height: 29.87px;
-left: 1109px;
-top: 239px;
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 170.53%;
-letter-spacing: 0.5px;
-color: #FFFFFF;
-}
-div#privacy{
-    position: absolute;
-width: 189.1px;
-height: 29.87px;
-left: 1109px;
-top: 273px;
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 170.53%;
-letter-spacing: 0.5px;
-color: #FFFFFF;
-}
-div#insta{
-position: absolute;
-left: 142px;
-right: 1248.94px;
-top: 141px;
-bottom: 176.53px;
-}
-div#twitter{
-position: absolute;
-left: 303.5px;
-right: 1087.44px;
-top: 141px;
-bottom: 176.53px;
 }
 
-div#facebook{
-    
-position: absolute;
-left: 222.75px;
-right: 1168.19px;
-top: 141px;
-bottom: 176.53px;
+div#contacts-header {
+  position: absolute;
+width: 80px;
+height: 29px;
+left: 749px;
+top: 69px;
 
+/* Body 2 */
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 160%;
+/* identical to box height, or 29px */
+
+letter-spacing: 0.5px;
+
+color: #E1E1E1;
+}
+
+
+div#promo-header {
+  position: absolute;
+width: 60px;
+height: 29px;
+left: 906px;
+top: 69px;
+
+/* Body 2 */
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 160%;
+/* identical to box height, or 29px */
+
+letter-spacing: 0.5px;
+
+color: #E1E1E1;
+
+}
+
+div#title-header {
+  position: absolute;
+width: 528px;
+height: 154px;
+left: 78px;
+top: 180px;
+
+/* Header 1 */
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 64px;
+line-height: 120%;
+/* or 77px */
+
+letter-spacing: 0.5px;
+
+color: #FFFFFF;
+
+}
+
+div#call-to-action {
+  position: absolute;
+width: 528px;
+height: 283px;
+left: 78px;
+top: 407px;
+
+/* Body 1 */
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 160%;
+/* or 38px */
+
+letter-spacing: 0.5px;
+
+color: #E1E1E1;
+
+}
+
+div#shop-now {
+  position: absolute;
+width: 159px;
+height: 44px;
+left: 157px;
+top: 770px;
+
+/* Button 1 */
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 44px;
+/* identical to box height */
+
+letter-spacing: 0.5px;
+
+color: #799985;
+background-color: transparent;
+
+}
+
+.shop-button {
+  color: #799985;
+  text-decoration: none;
+}
+
+div#shop-now-background{
+  position: absolute;
+width: 317px;
+height: 60px;
+left: 78px;
+top: 762px;
+
+background-color: #FFFFFF;
+border-radius: 4px;
 }
