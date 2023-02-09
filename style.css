@@ -364,18 +364,17 @@ div#home {
 
 .platimum_price {
     position: absolute;
-width: 94px;
-height: 44px;
-left: 977px;
-top: 625px;
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 600;
-font-size: 32px;
-line-height: 44px;
-letter-spacing: 0.5px;
-color: #799985;
-
+    width: 94px;
+    height: 44px;
+    left: 977px;
+    top: 625px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    letter-spacing: 0.5px;
+    color: #799985;
 }
 
 .button {
@@ -596,66 +595,66 @@ div#facebook {
     background: #FFFFFF;
 }
 
-.title_reviews{
+.title_reviews {
     position: absolute;
-width: 484px;
-height: 124px;
-left: 478px;
-top: 64px;
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 600;
-font-size: 48px;
-line-height: 130%;
-text-align: center;
-letter-spacing: 0.5px;
-color: #000000;
+    width: 484px;
+    height: 124px;
+    left: 478px;
+    top: 64px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #000000;
 }
 
-.description_reviwes{
+.description_reviwes {
     position: absolute;
-width: 547px;
-height: 87px;
-left: 447px;
-top: 228px;
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 160%;
-text-align: center;
-letter-spacing: 0.5px;
-color: #989898;
+    width: 547px;
+    height: 87px;
+    left: 447px;
+    top: 228px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 160%;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #989898;
 }
 
-.customers{
+.customers {
     position: absolute;
-width: 85%;
-height: 485px;
-left: 7%;
-top: 379px;
+    width: 85%;
+    height: 485px;
+    left: 7%;
+    top: 379px;
 }
 
-
-.img1{
+.img1 {
     position: absolute;
     left: 243px;
 }
 
-.name_avatar_1{
-position: absolute;
-width: 172px;
-height: 32px;
-left: 227px;
-top: 400px;
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 32px;
-color: #2C2D33;
+.name_avatar_1 {
+    position: absolute;
+    width: 172px;
+    height: 32px;
+    left: 227px;
+    top: 400px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #2C2D33;
 }
-.card_1{
+
+.card_1 {
     position: absolute;
     width: 386px;
     height: 415px;
@@ -665,101 +664,103 @@ color: #2C2D33;
     border-radius: 4px;
 }
 
-.review_avatar_1{
+.review_avatar_1 {
     position: absolute;
-width: 286px;
-height: 257px;
-left: 170px;
-top: 169px;
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 160%;
-letter-spacing: 0.5px;
-color: #FFFFFF;
-}
-.card_2{
-    position: absolute;
-width: 386px;
-height: 415px;
-left: 527px;
-top: 50px;
-background: #799985;
-border-radius: 4px;
-}
-.card_3{
-    position: absolute;
-width: 386px;
-height: 415px;
-left: 934px;
-top: 50px;
-background: #799985;
-border-radius: 4px;
+    width: 286px;
+    height: 257px;
+    left: 170px;
+    top: 169px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 160%;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
 }
 
-.img2{
+.card_2 {
+    position: absolute;
+    width: 386px;
+    height: 415px;
+    left: 527px;
+    top: 50px;
+    background: #799985;
+    border-radius: 4px;
+}
+
+.card_3 {
+    position: absolute;
+    width: 386px;
+    height: 415px;
+    left: 934px;
+    top: 50px;
+    background: #799985;
+    border-radius: 4px;
+}
+
+.img2 {
     position: absolute;
     left: 650px;
 }
 
-.img3{
+.img3 {
     position: absolute;
     left: 1057px;
 }
-.name_avatar_2{
+.name_avatar_2 {
     position: absolute;
-width: 172px;
-height: 32px;
-left: 634px;
-top: 400px;
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 32px;
-color: #2C2D33;
+    width: 172px;
+    height: 32px;
+    left: 634px;
+    top: 400px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #2C2D33;
 }
-.name_avatar_3{
+.name_avatar_3 {
     position: absolute;
-width: 155px;
-height: 32px;
-left: 1050px;
-top: 400px;
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 32px;
-color: #2C2D33;
+    width: 155px;
+    height: 32px;
+    left: 1050px;
+    top: 400px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #2C2D33;
 }
 
 .review_avatar_2{
     position: absolute;
-width: 288px;
-height: 203px;
-left: 576px;
-top: 169px;
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 160%;
-letter-spacing: 0.5px;
-color: #FFFFFF;
-
+    width: 288px;
+    height: 203px;
+    left: 576px;
+    top: 169px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 160%;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
 }
+
 .review_avatar_3{
     position: absolute;
-width: 286px;
-height: 203px;
-left: 984px;
-top: 169px;
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 160%;
-letter-spacing: 0.5px;
-color: #FFFFFF;
+    width: 286px;
+    height: 203px;
+    left: 984px;
+    top: 169px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 160%;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
 }
