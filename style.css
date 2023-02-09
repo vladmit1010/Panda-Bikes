@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
-
 header {
     position: absolute;
     width: 100%;
@@ -9,7 +8,6 @@ header {
     top: 0px;
     background: #799985;
 } 
-
 
 div#image-header {
     position: absolute;
@@ -574,7 +572,6 @@ div#facebook {
 .why_choose_us {
     position: absolute;
     height: 928px;
-    left: -1px;
     top: 1648px;
     background: #799985;
 }
@@ -582,16 +579,7 @@ div#facebook {
 .reviews {
     position: absolute;
     height: 904px;
-    left: calc(50% - 1440px/2);
     top: 2576px;
-    background: #FFFFFF;
-}
-
-.contact_form {
-    position: absolute;
-    height: 346px;
-    left: 0px;
-    top: 3480px;
     background: #FFFFFF;
 }
 
@@ -629,9 +617,8 @@ div#facebook {
 
 .customers {
     position: absolute;
-    width: 85%;
+    width: 1200px;
     height: 485px;
-    left: 7%;
     top: 379px;
 }
 
@@ -764,3 +751,65 @@ div#facebook {
     letter-spacing: 0.5px;
     color: #FFFFFF;
 }
+
+.contact_form {
+    position: absolute;
+    top: 3480px;
+    width: 1200px;
+    height: 250px;
+    left: 120px;
+    background-color: #799985;
+}
+
+.contact_form_letters {
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 80px;
+    margin-bottom: 66px;
+    margin-right: 793px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 130%;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}
+
+.email_form {
+    position: absolute;
+    width: 691px;
+    height: 100px;
+    margin-top: 75px;
+    margin-right: 72px;
+    margin-left: 437px;
+    margin-bottom: 75px;
+    padding-left: 32px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    letter-spacing: 0.5px;
+    color: #989898;
+}
+
+.submit_button {
+    position: absolute;
+    width: 183px;
+    height: 60px;
+    margin-top: 95px;
+    margin-left: 925px;
+    margin-bottom: 95px;
+    margin-right: 92px;
+    background: #799985;
+    border-radius: 4px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}
+
