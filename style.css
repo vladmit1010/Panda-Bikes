@@ -141,8 +141,8 @@ div#shop-now {
 }
 
 .shop-button {
-  color: #799985;
-  text-decoration: none;
+    color: #799985;
+    text-decoration: none;
 }
 
 div#shop-now-background {
@@ -178,6 +178,156 @@ div#shop-now-background {
     letter-spacing: 0.5px;
     color: #2C2D33;
 }
+
+.why_choose_us {
+    position: absolute;
+    width: 1440px;
+    height: 928px;
+    left: -1px;
+    top: 1648px;
+    background: #799985;
+}
+  
+div#img-why-choose-us {
+    position: absolute;
+    width: 720px;
+    height: 928px;
+    left: 0px;
+    top: 0px;   
+}
+  
+div#title-why-choose-us {
+    position: absolute;
+    width: 511px;
+    height: 62px;
+    left: 824px;
+    top: 64px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}
+  
+img#img-drive-belt {
+    position: absolute;
+    left: 73.1%;
+    right: 22.94%;
+    top: 21.57%;
+    bottom: 71.25%;
+}
+  
+p#great-maintenance {
+    position: absolute;
+    width: 235.33px;
+    height: 32px;
+    left: 963.34px;
+    top: 230px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+  
+p#great-maintenance-description {
+    position: absolute;
+    width: 566px;
+    height: 88px;
+    left: 798px;
+    top: 274px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 160%;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #E1E1E1;
+}
+  
+img#img-engine {
+    position: absolute;
+    left: 72.66%;
+    right: 22.85%;
+    /* top: 41.16%;
+    bottom: 54.25%; */
+    top: 45.16%;
+    bottom: 50.25%;
+}
+  
+p#high-quality-parts {
+    position: absolute;
+    width: 221.17px;
+    height: 32px;
+    left: 968.92px;
+    top: 450.34px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+  
+p#high-quality-parts-description {
+    position: absolute;
+    width: 566px;
+    height: 116px;
+    left: 796px;
+    top: 494.34px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 160%;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #E1E1E1;
+}
+
+img#img-mechanic {
+    position: absolute;
+    left: 73.28%;
+    right: 23.34%;
+    top: 71.11%;
+    bottom: 23.72%;
+}
+  
+p#high-quality-services {
+    position: absolute;
+    width: 258.26px;
+    height: 32px;
+    left: 951.36px;
+    top: 703.59px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+  
+p#high-quality-services-description {
+    position: absolute;
+    width: 566px;
+    height: 116px;
+    left: 797px;
+    top: 747.59px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 160%;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #E1E1E1;
+}
+  
 
 footer {
     position: absolute;
@@ -812,4 +962,3 @@ div#facebook {
     letter-spacing: 0.5px;
     color: #FFFFFF;
 }
-
