@@ -126,23 +126,27 @@ div#call-to-action {
     color: #E1E1E1;
 }
 
-div#shop-now {
+.shop-button {
     position: absolute;
-    left: 157px;
-    top: 770px;
+    left: 78px;
+    top: 750px;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 64px;
+    text-decoration: none;
+    background: #FFF;
+    color: #799985;
     font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 700;
     font-size: 32px;
+    font-weight: 600;
     line-height: 44px;
     letter-spacing: 0.5px;
-    color: #799985;
-    background-color: transparent;
+    cursor: pointer;
+    text-align: center;
 }
 
-.shop-button {
-    color: #799985;
-    text-decoration: none;
+.shop-button:hover {
+    background: #E1E1E1;
 }
 
 div#shop-now-background {
