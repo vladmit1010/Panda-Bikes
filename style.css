@@ -126,7 +126,7 @@ div#call-to-action {
     color: #E1E1E1;
 }
 
-.shop-button {
+#shop_button {
     position: absolute;
     left: 78px;
     top: 750px;
@@ -145,18 +145,8 @@ div#call-to-action {
     text-align: center;
 }
 
-.shop-button:hover {
+#shop_button:hover {
     background: #E1E1E1;
-}
-
-div#shop-now-background {
-    position: absolute;
-    width: 317px;
-    height: 60px;
-    left: 78px;
-    top: 762px;
-    background-color: #FFFFFF;
-    border-radius: 4px;
 }
 
 .product_catalog {
@@ -889,7 +879,7 @@ div#facebook {
     color: #FFFFFF;
 }
 
-.review_avatar_3{
+.review_avatar_3 {
     position: absolute;
     width: 286px;
     height: 203px;
@@ -904,7 +894,7 @@ div#facebook {
     color: #FFFFFF;
 }
 
-.contact_form {
+#contact_form {
     position: absolute;
     top: 3480px;
     width: 1200px;
@@ -931,7 +921,7 @@ div#facebook {
 .email_form {
     position: absolute;
     width: 691px;
-    height: 100px;
+    height: 96px;
     margin-top: 75px;
     margin-right: 72px;
     margin-left: 437px;
@@ -955,12 +945,19 @@ div#facebook {
     margin-bottom: 95px;
     margin-right: 92px;
     background: #799985;
+    border: none;
     border-radius: 4px;
     font-family: 'Open Sans';
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 18px;
     line-height: 25px;
     letter-spacing: 0.5px;
+    cursor: pointer;
+    text-align: center;
     color: #FFFFFF;
+}
+
+.submit_button:hover {
+    background: #688A75;
 }
