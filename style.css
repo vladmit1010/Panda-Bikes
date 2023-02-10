@@ -766,6 +766,7 @@ div#facebook {
     width: 1200px;
     height: 485px;
     top: 379px;
+    left: -6px;
 }
 
 .img1 {
@@ -904,6 +905,7 @@ div#facebook {
     width: 1200px;
     height: 250px;
     left: 120px;
+    border-radius: 4px;
     background-color: #799985;
 }
 
@@ -931,6 +933,8 @@ div#facebook {
     margin-left: 437px;
     margin-bottom: 75px;
     padding-left: 32px;
+    border-radius: 4px;
+    border: none;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 500;
