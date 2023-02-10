@@ -126,33 +126,27 @@ div#call-to-action {
     color: #E1E1E1;
 }
 
-div#shop-now {
+#shop_button {
     position: absolute;
-    left: 157px;
-    top: 770px;
+    left: 78px;
+    top: 750px;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 64px;
+    text-decoration: none;
+    background: #FFF;
+    color: #799985;
     font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 700;
     font-size: 32px;
+    font-weight: 600;
     line-height: 44px;
     letter-spacing: 0.5px;
-    color: #799985;
-    background-color: transparent;
+    cursor: pointer;
+    text-align: center;
 }
 
-.shop-button {
-  color: #799985;
-  text-decoration: none;
-}
-
-div#shop-now-background {
-    position: absolute;
-    width: 317px;
-    height: 60px;
-    left: 78px;
-    top: 762px;
-    background-color: #FFFFFF;
-    border-radius: 4px;
+#shop_button:hover {
+    background: #E1E1E1;
 }
 
 .product_catalog {
@@ -178,6 +172,154 @@ div#shop-now-background {
     letter-spacing: 0.5px;
     color: #2C2D33;
 }
+
+.why_choose_us {
+    position: absolute;
+    width: 1440px;
+    height: 928px;
+    left: -1px;
+    top: 1648px;
+    background: #799985;
+}
+  
+div#img-why-choose-us {
+    position: absolute;
+    width: 720px;
+    height: 928px;
+    left: 0px;
+    top: 0px;   
+}
+  
+div#title-why-choose-us {
+    position: absolute;
+    width: 511px;
+    height: 62px;
+    left: 824px;
+    top: 64px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}
+  
+img#img-drive-belt {
+    position: absolute;
+    left: 73.1%;
+    right: 22.94%;
+    top: 21.57%;
+    bottom: 71.25%;
+}
+  
+p#great-maintenance {
+    position: absolute;
+    width: 235.33px;
+    height: 32px;
+    left: 963.34px;
+    top: 230px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+  
+p#great-maintenance-description {
+    position: absolute;
+    width: 566px;
+    height: 88px;
+    left: 798px;
+    top: 274px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 160%;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #E1E1E1;
+}
+  
+img#img-engine {
+    position: absolute;
+    left: 72.66%;
+    right: 22.85%;
+    top: 45.16%;
+    bottom: 50.25%;
+}
+  
+p#high-quality-parts {
+    position: absolute;
+    width: 221.17px;
+    height: 32px;
+    left: 968.92px;
+    top: 450.34px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+  
+p#high-quality-parts-description {
+    position: absolute;
+    width: 566px;
+    height: 116px;
+    left: 796px;
+    top: 494.34px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 160%;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #E1E1E1;
+}
+
+img#img-mechanic {
+    position: absolute;
+    left: 73.28%;
+    right: 23.34%;
+    top: 71.11%;
+    bottom: 23.72%;
+}
+  
+p#high-quality-services {
+    position: absolute;
+    width: 258.26px;
+    height: 32px;
+    left: 951.36px;
+    top: 703.59px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+  
+p#high-quality-services-description {
+    position: absolute;
+    width: 566px;
+    height: 116px;
+    left: 797px;
+    top: 747.59px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 160%;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #E1E1E1;
+}
+  
 
 footer {
     position: absolute;
@@ -378,6 +520,10 @@ div#home {
 .button {
     text-decoration: none;
     color:#FFFFFF;
+}
+
+.button:hover {
+    color:#E1E1E1;
 }
 
 div#catalog {
@@ -620,6 +766,7 @@ div#facebook {
     width: 1200px;
     height: 485px;
     top: 379px;
+    left: -6px;
 }
 
 .img1 {
@@ -737,7 +884,7 @@ div#facebook {
     color: #FFFFFF;
 }
 
-.review_avatar_3{
+.review_avatar_3 {
     position: absolute;
     width: 286px;
     height: 203px;
@@ -752,12 +899,13 @@ div#facebook {
     color: #FFFFFF;
 }
 
-.contact_form {
+#contact_form {
     position: absolute;
     top: 3480px;
     width: 1200px;
     height: 250px;
     left: 120px;
+    border-radius: 4px;
     background-color: #799985;
 }
 
@@ -779,12 +927,14 @@ div#facebook {
 .email_form {
     position: absolute;
     width: 691px;
-    height: 100px;
+    height: 96px;
     margin-top: 75px;
     margin-right: 72px;
     margin-left: 437px;
     margin-bottom: 75px;
     padding-left: 32px;
+    border-radius: 4px;
+    border: none;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 500;
@@ -803,13 +953,19 @@ div#facebook {
     margin-bottom: 95px;
     margin-right: 92px;
     background: #799985;
+    border: none;
     border-radius: 4px;
     font-family: 'Open Sans';
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 18px;
     line-height: 25px;
     letter-spacing: 0.5px;
+    cursor: pointer;
+    text-align: center;
     color: #FFFFFF;
 }
 
+.submit_button:hover {
+    background: #688A75;
+}

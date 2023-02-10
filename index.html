@@ -10,21 +10,21 @@
 
 <header>
     <div id="image-header">
-        <img src="img/img_header.jpg">
+        <img src="img/img_header.jpg" width="720px" height="906px">
     </div>
 
     <div id="logo">Panda Bike</div>
     <div id="home-header">
-        <a class="button" href="#">Home</a>
+        <a class="button" href="">Home</a>
     </div>
     <div id="catalog-header">
-        <a class="button" href="#">Catalog</a>
+        <a class="button" href="">Catalog</a>
     </div>
     <div id="contacts-header">
-        <a class="button" href="#">Contacts</a>
+        <a class="button" href="">Contacts</a>
     </div>
     <div id="promo-header">
-        <a class="button" href="#">Promo</a>
+        <a class="button" href="">Promo</a>
     </div>
   
     <div id="title-header">Buy Your Bicycle More Easily</div>
@@ -34,17 +34,12 @@
         Shop now and enjoy a smooth and convenient experience!
     </div>
 
-    <div id="shop-now-background"></div>
-    <div id="shop-now">
-        <a class="shop-button" href="#">Shop now</a>
-    </div>
+    <button id="shop_button" type="button" onclick="smoothScroll(document.getElementById('contact_form'))">Shop now</button>
 </header>
 
 <body>
     <div class="product_catalog">
-        <div class="h_product_catalog">
-            Product Catalog
-        </div>
+        <div class="h_product_catalog">Product Catalog</div>
         <div class="product_description">
             Discover the perfect ride for you with Panda Bike's versatile selection of three distinct bicycle types. Choose from our range of options, each carefully crafted to meet your specific needs and preferences. Make your next outdoor adventure unforgettable with Panda Bike.
         </div>
@@ -65,34 +60,61 @@
         </div>
     </div>
 
-    <div class = "why_choose_us"></div>
+    <div class="why_choose_us">
+        <img id="img-why-choose-us" src="img/img_why_choose_us.jpg" width="720px" height="928px">
+        <div id="title-why-choose-us">Why Choose Us?</div>
+        <div id="features">
+            <div id="feature-1">
+                <img id="img-drive-belt" src="img/Drive_belt.png">
+                <p id="great-maintenance">Great Maintenance</p>
+                <p id="great-maintenance-description">
+                    At our bicycle shop, we understand that proper maintenance is key to getting the most out of your ride. That's
+                    why we offer the best maintenance services in the industry.
+                </p>
+            </div>
+        
+            <div id="feature-2">
+                <img id="img-engine" src="img/Engine.png">
+                <p id="high-quality-parts">High Quality Parts</p>
+                <p id="high-quality-parts-description">
+                    At Panda Bikes we understand that the right parts can make all the difference in your cycling experience.
+                    That's why we only stock the best components from the industry's leading brands.
+                </p>
+            </div>
+
+            <div id="feature-3">
+                <img id="img-mechanic" src="img/Mechanic.png">
+                <p id="high-quality-services">High Quality Services</p>
+                <p id="high-quality-services-description">
+                    Elevate your cycling experience with the premium services at Panda Bikes! We dedicate to providing the proper maintenance and expert services are crucial to getting the most out of your bicycle.
+                </p>
+            </div>
+        </div>
+    </div>
 
     <div class = "reviews">
         <div class = "title_reviews">What Our Lovely Customers Say</div>
         <div class = "description_reviwes">Discover why our customers love us! From exceptional products to top-notch customer service, our lovely customers rave about their experiences with us.</div>
         <div class="customers">
-            <div>
-                <div class = "card_1"></div>
-                <div class="img1"><img src="img/Avatar_1.png" alt="" width="140" height="140"></div>
-                <div class="name_avatar_1">Inaya Syahdaz</div>
-                <div class="review_avatar_1">I recently had my bike serviced at Panda Bikes and I couldn't be happier with the results! The staff was friendly and knowledgeable, and my bike runs smoother than ever. Highly recommend!</div>
-            </div>
-            <div>
-                <div class = "card_2"></div>
-                <div class="img2"><img src="img/Avatar_3.png" alt="" width="140" height="140"></div>
-                <div class="name_avatar_2">David Johnson</div>
-                <div class = "review_avatar_2">I've been a customer of Panda Bikes for years now and I've never been disappointed with their services. The technicians are experts in their field and always provide top-notch services.</div>
-            </div>
-            <div>
-                <div class = "card_3"></div>
-                <div class="img3"><img src="img/Avatar_2.png" alt="" width="140" height="140"></div>
-                <div class="name_avatar_3">Master Qolbi</div>
-                <div class = "review_avatar_3">The high quality parts and services offered at Panda Bikes are truly unmatched. I’ve never had a better cycling experience since I started using their products and services. Thank You!</div>
+            <div class = "card_1"></div>
+            <div class="img1"><img src="img/Avatar_1.png" alt="" width="140" height="140"></div>
+            <div class="name_avatar_1">Inaya Syahdaz</div>
+            <div class="review_avatar_1">I recently had my bike serviced at Panda Bikes and I couldn't be happier with the results! The staff was friendly and knowledgeable, and my bike runs smoother than ever. Highly recommend!</div>
+            
+            <div class = "card_2"></div>
+            <div class="img2"><img src="img/Avatar_3.png" alt="" width="140" height="140"></div>
+            <div class="name_avatar_2">David Johnson</div>
+            <div class = "review_avatar_2">I've been a customer of Panda Bikes for years now and I've never been disappointed with their services. The technicians are experts in their field and always provide top-notch services.</div>
+
+            <div class = "card_3"></div>
+            <div class="img3"><img src="img/Avatar_2.png" alt="" width="140" height="140"></div>
+            <div class="name_avatar_3">Master Qolbi</div>
+            <div class = "review_avatar_3">The high quality parts and services offered at Panda Bikes are truly unmatched. I’ve never had a better cycling experience since I started using their products and services. Thank You!</div>
             </div>
         </div>
     </div>
 
-    <div class = "contact_form">
+    <div id = "contact_form">
         <form id="form_id" method="post" action="">
             <div class="contact_form_letters">Let us<br>contact You!</div>
             <input type="email" id="email" class="email_form" placeholder="Type your email here" required>
@@ -114,39 +136,40 @@
     </div>
     
     <div id="home">
-        <a class="button" href="#">Home</a>
+        <a class="button" href="">Home</a>
     </div>
     <div id="catalog">
-        <a class="button" href="#">Catalog</a>
+        <a class="button" href="">Catalog</a>
     </div>
     <div id="services">
-        <a class="button" href="#">Services</a>
+        <a class="button" href="">Services</a>
     </div>
     <div id="promo">
-        <a class="button" href="#">Promo</a>
+        <a class="button" href="">Promo</a>
     </div>
 
     <div id="adress">Address:</div>
     <div id="adresss">61000, Tsilynohrads'ka St., 40 Kharkiv, Ukraine</div>
 
     <div id="info">
-        <a class="button" href="#">Information:</a>
+        <a class="button" href="">Information:</a>
     </div> 
     <div id="faq">
-        <a class="button" href="#">FAQ</a>
+        <a class="button" href="">FAQ</a>
     </div>
     <div id="dr">
-        <a class="button" href="#">Delivery & returns</a>
+        <a class="button" href="">Delivery & returns</a>
     </div>   
     <div id="safety">
-        <a class="button" href="#">Safety</a>
+        <a class="button" href="">Safety</a>
     </div>
     <div id="pb">
-        <a class="button" href="#">Promotion bikes</a>
+        <a class="button" href="">Promotion bikes</a>
     </div>
     <div id="privacy">
-        <a class="button" href="#">Privacy</a>
+        <a class="button" href="">Privacy</a>
     </div>
 </footer>
 
+<script src="main.js"></script>
 </html>
