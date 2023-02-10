@@ -522,6 +522,10 @@ div#home {
     color:#FFFFFF;
 }
 
+.button:hover {
+    color:#E1E1E1;
+}
+
 div#catalog {
     position: absolute;
     width: 93.02px;
