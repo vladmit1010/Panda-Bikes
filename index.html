@@ -6,10 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 </head>
 
 <header>
@@ -97,9 +93,9 @@
     </div>
 
     <div class = "contact_form">
-        <form id="form_id" method="post" action="" onsubmit="javascript:return validate('form_id','email');">
+        <form id="form_id" method="post" action="">
             <div class="contact_form_letters">Let us<br>contact You!</div>
-            <input type="email" name="email" class="email_form" placeholder="Type your email here" id="email">
+            <input type="email" id="email" class="email_form" placeholder="Type your email here" required>
             <button class="submit_button" value="validate">Submit</button>
         </form>
     </div>
